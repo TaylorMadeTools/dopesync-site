@@ -1,0 +1,35 @@
+# GitHub Pages site for DopeSync (same Jekyll + minima setup as the Katana Extension Site, DopeSync theme)
+title: "DOPE Sync"
+description: "Your GeoBallistics or Applied Ballistics range card, on your Garmin watch."
+baseurl: "/dopesync-site"
+url: "https://taylormadetools.github.io"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+minima:
+  social_links:
+    github: TaylorMadeTools
+
+header_pages:
+  - user-guide.md
+  - whats-new.md
+  - privacy-policy.md
+  - license-info.md
+
+exclude:
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - README.md

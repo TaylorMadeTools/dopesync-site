@@ -1,0 +1,33 @@
+---
+# DopeSync theme on top of minima: black field, reticle red, light text.
+---
+$brand-color: #E5262A;
+$text-color: #E6E6E6;
+$background-color: #000000;
+$grey-color: #8A8A8A;
+$grey-color-light: #262626;
+$grey-color-dark: #B0B0B0;
+
+@import "minima";
+
+.site-header { border-top: 4px solid #E5262A; border-bottom-color: #262626; background: #000; }
+.site-title, .site-title:visited { color: #F2F2F2; font-weight: 700; letter-spacing: 0.06em; }
+.site-nav .page-link { color: #E6E6E6; }
+.site-footer { border-top-color: #262626; }
+h1, h2, h3 { color: #F2F2F2; }
+a { color: #E5262A; }
+a:visited { color: #C21F23; }
+code, pre { background: #161616; border-color: #262626; color: #E6E6E6; }
+table { color: #E6E6E6; }
+table th, table td { border-color: #262626; }
+table tr:nth-child(even) { background-color: #111; }
+table th { background-color: #161616; }
+img { border-radius: 8px; }
+.ds-hero { display: flex; align-items: center; gap: 20px; margin-bottom: 8px; }
+.ds-hero img { width: 96px; height: 96px; border-radius: 50%; }
+.ds-word { font-size: 44px; font-weight: 800; letter-spacing: 0.08em; line-height: 1; }
+.ds-word .sync { color: #E5262A; }
+.ds-tag { color: #8A8A8A; font-family: monospace; letter-spacing: 0.25em; font-size: 12px; margin-top: 6px; }
+.ds-shots { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; }
+.ds-shots img { max-width: 260px; }
+.ds-note { border-left: 3px solid #E5262A; padding: 8px 14px; background: #111; }
