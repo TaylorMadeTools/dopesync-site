@@ -1,87 +1,88 @@
 ---
-layout: home
+layout: landing
 ---
 
-<div class="ds-hero">
-  <img src="{{ site.baseurl }}/images/logo.png" alt="DOPE Sync logo">
-  <div>
-    <div class="ds-word">DOPE <span class="sync">SYNC</span></div>
-    <div class="ds-tag">BALLISTIC DOPE ON GARMIN</div>
+<section class="ld-hero">
+  <div class="ld-hero-text">
+    <div class="ds-hero">
+      <img src="{{ site.baseurl }}/images/logo.png" alt="DOPE Sync logo">
+      <div>
+        <div class="ds-word">DOPE <span class="sync">SYNC</span></div>
+        <div class="ds-tag">BALLISTIC DOPE ON GARMIN</div>
+      </div>
+    </div>
+    <h1 class="ld-title">Your range card, on your wrist.</h1>
+    <p class="ld-lead">Build your card in GeoBallistics or Applied Ballistics like you already do, share it, and it's on your Garmin watch. No retyping, no tape on the stock, no phone out on the line.</p>
+    <div class="ld-ctas">
+      <a class="ld-btn ld-btn-primary" href="mailto:taylor@taylormadetech.io?subject=DopeSync%20beta">Join the beta</a>
+      <a class="ld-btn" href="{{ site.baseurl }}/user-guide/">User guide</a>
+    </div>
+    <p class="ld-small">Android beta now. iPhone in testing. Never calculates ballistics: it shows exactly what your solver produced.</p>
   </div>
-</div>
-
-**Your range card, on your wrist.** Build your card in GeoBallistics or Applied Ballistics like you already do, share it, and it's on your Garmin watch. No retyping, no tape on the stock, no phone out on the line.
-
-## See it in action
-
-<figure class="ds-fig">
-  <video src="{{ site.baseurl }}/images/dopesync-demo.mp4" poster="{{ site.baseurl }}/images/watch-gb-card.png"
-         autoplay muted loop playsinline width="260"></video>
-  <figcaption>A card arrives: the watch buzzes, you press <strong>Launch</strong>, your dope is up. (Simulator recording.)</figcaption>
-</figure>
-
-<div class="ds-shots">
-  <figure>
-    <img src="{{ site.baseurl }}/images/watch-gb-card.png" alt="GeoBallistics stage card on a fenix 6 Pro">
-    <figcaption><strong>GeoBallistics</strong> stage card</figcaption>
+  <figure class="ld-hero-media">
+    <video src="{{ site.baseurl }}/images/dopesync-demo.mp4" poster="{{ site.baseurl }}/images/watch-gb-card.png" autoplay muted loop playsinline></video>
+    <figcaption>A card arrives, the watch buzzes, you press <strong>Launch</strong>.</figcaption>
   </figure>
-  <figure>
-    <img src="{{ site.baseurl }}/images/watch-ab-card.png" alt="Applied Ballistics card with two winds">
-    <figcaption><strong>Applied Ballistics</strong> card, two winds</figcaption>
-  </figure>
-</div>
+</section>
 
-## Watch it sync
+<section class="ld-section">
+  <h2>How it works</h2>
+  <div class="ld-steps">
+    <div class="ld-card"><span class="ld-num">1</span><h3>Build your card</h3><p>In GeoBallistics (Comp or Chart) or Applied Ballistics, the same way you do today.</p></div>
+    <div class="ld-card"><span class="ld-num">2</span><h3>Share to DopeSync</h3><p>Export, Share, then DopeSync. You can go right back to what you were doing.</p></div>
+    <div class="ld-card"><span class="ld-num">3</span><h3>Read it on your wrist</h3><p>Every target's range, elevation and wind, big and readable in sun.</p></div>
+  </div>
+</section>
 
-Real phone recordings (sped up 1.5x) next to the watch, with the same card on both.
+<section class="ld-section">
+  <h2>Watch it sync</h2>
+  <p class="ld-sub">Real phone recordings (sped up 1.5x) next to the watch, with the same card on both.</p>
+  <div class="ld-videos">
+    <figure>
+      <video src="{{ site.baseurl }}/images/dopesync-gb-chart.mp4" poster="{{ site.baseurl }}/images/dopesync-gb-chart-poster.jpg" controls muted playsinline preload="none"></video>
+      <figcaption><strong>GeoBallistics Chart</strong><br>Full 100 to 1,000 yd table</figcaption>
+    </figure>
+    <figure>
+      <video src="{{ site.baseurl }}/images/dopesync-gb-comp.mp4" poster="{{ site.baseurl }}/images/dopesync-gb-comp-poster.jpg" controls muted playsinline preload="none"></video>
+      <figcaption><strong>GeoBallistics Comp</strong><br>4-target stage card</figcaption>
+    </figure>
+    <figure>
+      <video src="{{ site.baseurl }}/images/dopesync-ab.mp4" poster="{{ site.baseurl }}/images/dopesync-ab-poster.jpg" controls muted playsinline preload="none"></video>
+      <figcaption><strong>Applied Ballistics</strong><br>Lettered targets, two winds</figcaption>
+    </figure>
+  </div>
+  <p class="ld-small">Phone: real recording. Watch: the Connect IQ simulator showing the same card, timed to when it arrived.</p>
+</section>
 
-<div class="ds-videos">
-  <figure>
-    <video src="{{ site.baseurl }}/images/dopesync-gb-chart.mp4" poster="{{ site.baseurl }}/images/dopesync-gb-chart-poster.jpg" controls muted playsinline preload="none"></video>
-    <figcaption><strong>GeoBallistics</strong> Chart: a full 100 to 1,000 yd trajectory table</figcaption>
-  </figure>
-  <figure>
-    <video src="{{ site.baseurl }}/images/dopesync-gb-comp.mp4" poster="{{ site.baseurl }}/images/dopesync-gb-comp-poster.jpg" controls muted playsinline preload="none"></video>
-    <figcaption><strong>GeoBallistics</strong> Comp: a 4-target stage card</figcaption>
-  </figure>
-  <figure>
-    <video src="{{ site.baseurl }}/images/dopesync-ab.mp4" poster="{{ site.baseurl }}/images/dopesync-ab-poster.jpg" controls muted playsinline preload="none"></video>
-    <figcaption><strong>Applied Ballistics</strong>: lettered targets, two winds, rows past range show --</figcaption>
-  </figure>
-</div>
+<section class="ld-section ld-split">
+  <div>
+    <h2>On the watch</h2>
+    <ul class="ld-features">
+      <li><strong>Every target on one screen.</strong> Long cards page with Up/Down.</li>
+      <li><strong>Colored direction letters</strong> (U/D, L/R) so you dial the right way.</li>
+      <li><strong>Wind as a clock position</strong> relative to your shot: 22 MPH @ 6:00.</li>
+      <li><strong>Two-wind ranges</strong> for Applied Ballistics: R 0.2-0.3.</li>
+      <li><strong>Stage card + 5 pins.</strong> Each share replaces the stage card; your 100-yard profile and 22LR stay pinned.</li>
+      <li><strong>Honest about range.</strong> Rows past your solver's limit show --, never a false 0.0.</li>
+      <li><strong>Tactical mode:</strong> black and red only.</li>
+    </ul>
+  </div>
+  <div class="ld-shots">
+    <figure><img src="{{ site.baseurl }}/images/watch-gb-card.png" alt="GeoBallistics stage card"><figcaption><strong>GeoBallistics</strong> stage card</figcaption></figure>
+    <figure><img src="{{ site.baseurl }}/images/watch-ab-card.png" alt="Applied Ballistics two-wind card"><figcaption><strong>Applied Ballistics</strong>, two winds</figcaption></figure>
+  </div>
+</section>
 
-<p class="ds-note">The phone side is a real recording. The watch side is the Connect IQ simulator showing the same card the phone sent, timed to when it arrived.</p>
+<section class="ld-section">
+  <h2>Works with</h2>
+  <div class="ld-steps">
+    <div class="ld-card"><h3>Ballistic apps</h3><p>GeoBallistics (Comp and Chart exports) and Applied Ballistics (stage exports).</p></div>
+    <div class="ld-card"><h3>Phones</h3><p>Android (beta). iPhone in testing.</p></div>
+    <div class="ld-card"><h3>Watches</h3><p>fenix 5 Plus, 6, 7, 8, 9 and E, epix, Enduro, MARQ, Forerunner 245 to 970.</p></div>
+  </div>
+</section>
 
-## How it works
-
-1. **Build your card** in GeoBallistics (Comp or Chart) or Applied Ballistics.
-2. **Export, then Share, then DopeSync** on your phone.
-3. **It's on your watch:** every target's range, elevation and wind, big and readable in sun.
-
-## On the watch
-
-- Every target on one screen; long cards page with Up/Down
-- Colored direction letters (U/D, L/R) so you dial the right way
-- Wind as a clock position relative to your shot: `22 MPH @ 6:00`
-- Two-wind Applied Ballistics cards show the hold range: `R 0.2-0.3`
-- A **stage card** that each new share replaces, plus up to **5 pinned reference cards** (your 100-yard profile, your 22LR) that never get overwritten
-- Rows past your solver's range show `--`, never a false `0.0`
-- Tactical mode: black and red only
-
-DOPE Sync never calculates ballistics. It shows exactly the numbers your solver produced.
-
-## Works with
-
-| | |
-|---|---|
-| **Ballistic apps** | GeoBallistics (Comp and Chart exports), Applied Ballistics (stage exports) |
-| **Phones** | Android (beta). iPhone in testing. |
-| **Watches** | fenix 5 Plus, 6, 7, 8, 9 and E series, epix, Enduro, MARQ, Forerunner 245 to 970 |
-
-## Get it
-
-- **Garmin watch app:** Connect IQ Store (coming soon)
-- **Android app:** Google Play (closed beta starting soon; [get in touch](mailto:taylor@taylormadetech.io) to test)
-- **iPhone:** in testing
-
-<p class="ds-note">Questions or feedback: <a href="mailto:taylor@taylormadetech.io">taylor@taylormadetech.io</a>. DOPE Sync is not affiliated with or endorsed by GeoBallistics, Applied Ballistics or Garmin.</p>
+<section class="ld-section ld-end">
+  <p>Questions or feedback: <a href="mailto:taylor@taylormadetech.io">taylor@taylormadetech.io</a></p>
+  <p class="ld-small">DOPE Sync is not affiliated with or endorsed by GeoBallistics, Applied Ballistics or Garmin.</p>
+</section>
