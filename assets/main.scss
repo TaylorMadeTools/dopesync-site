@@ -90,3 +90,5 @@ figcaption strong { color: #F2F2F2; }
 
 /* Header and footer line up with the wider landing content. */
 .site-header .wrapper, .site-footer .wrapper { max-width: 1120px; }
+.ds-footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; color: #8A8A8A; font-size: 14px; padding: 20px 24px; }
+.ld-videos + .ld-small { margin-top: 16px; }
