@@ -25,7 +25,7 @@ layout: landing
   </figure>
 </section>
 
-<section class="ld-section">
+<section class="ld-section" id="how">
   <h2>How it works</h2>
   <div class="ld-steps">
     <div class="ld-card"><span class="ld-num">1</span><h3>Build your card</h3><p>In GeoBallistics (Comp or Chart) or Applied Ballistics, the same way you do today.</p></div>
@@ -34,7 +34,7 @@ layout: landing
   </div>
 </section>
 
-<section class="ld-section">
+<section class="ld-section" id="sync">
   <h2>Watch it sync</h2>
   <p class="ld-sub">Real phone recordings (sped up 1.5x) next to the watch, with the same card on both.</p>
   <div class="ld-videos">
@@ -54,7 +54,7 @@ layout: landing
   <p class="ld-small">Phone: real recording. Watch: the Connect IQ simulator showing the same card, timed to when it arrived.</p>
 </section>
 
-<section class="ld-section ld-split">
+<section class="ld-section ld-split" id="features">
   <div>
     <h2>On the watch</h2>
     <ul class="ld-features">
@@ -73,7 +73,7 @@ layout: landing
   </div>
 </section>
 
-<section class="ld-section">
+<section class="ld-section" id="works">
   <h2>Works with</h2>
   <div class="ld-steps">
     <div class="ld-card"><h3>Ballistic apps</h3><p>GeoBallistics (Comp and Chart exports) and Applied Ballistics (stage exports).</p></div>

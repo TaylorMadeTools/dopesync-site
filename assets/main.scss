@@ -87,3 +87,6 @@ figcaption strong { color: #F2F2F2; }
   .ld-steps, .ld-videos { grid-template-columns: 1fr; }
   .ld-title { font-size: 30px; }
 }
+
+/* Header and footer line up with the wider landing content. */
+.site-header .wrapper, .site-footer .wrapper { max-width: 1120px; }
