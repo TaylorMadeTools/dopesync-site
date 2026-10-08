@@ -4,7 +4,7 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-**Last updated:** October 8, 2026
+**Last updated:** October 8, 2026 (0.3.2)
 
 DOPE Sync (the Garmin watch app and the Android / iPhone apps) is built to keep your data on your own devices.
 
@@ -25,6 +25,7 @@ DOPE Sync (the Garmin watch app and the Android / iPhone apps) is built to keep 
 ## Permissions
 
 - **Bluetooth** (iPhone): to send the card to your watch.
+- **Foreground service** (Android): while a card is being sent, Android shows a short "Sending card to watch" notification so the send can finish even if you leave the app. It goes away when the watch confirms.
 - **Garmin Connect**: used to find your paired watch. Garmin's own privacy policy covers Garmin Connect.
 
 ## Purchases
