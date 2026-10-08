@@ -29,7 +29,7 @@ The phone confirms with "N targets sent to your watch" once the watch has receiv
 ## 3. Open it on the watch
 
 - **Start**, then **DopeSync** (tip: move it to the top of the Start list so it's two presses).
-- If the app is closed when a card arrives, the watch asks **"Open DopeSync?"**. Press Start.
+- If the app is closed when a card arrives, the watch buzzes and shows **"4 targets ready"** with **Launch / Dismiss**. Press Start on **Launch**.
 - If the app is already open, the new card just appears.
 
 ## 4. Reading the card

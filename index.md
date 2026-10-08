@@ -17,7 +17,7 @@ layout: home
 <figure class="ds-fig">
   <video src="{{ site.baseurl }}/images/dopesync-demo.mp4" poster="{{ site.baseurl }}/images/watch-gb-card.png"
          autoplay muted loop playsinline width="260"></video>
-  <figcaption>A card arrives: the watch buzzes, you press <strong>Start</strong>, your dope is up. (Simulator recording.)</figcaption>
+  <figcaption>A card arrives: the watch buzzes, you press <strong>Launch</strong>, your dope is up. (Simulator recording.)</figcaption>
 </figure>
 
 <div class="ds-shots">
@@ -30,6 +30,27 @@ layout: home
     <figcaption><strong>Applied Ballistics</strong> card, two winds</figcaption>
   </figure>
 </div>
+
+## Watch it sync
+
+Real phone recordings (sped up 1.5x) next to the watch, with the same card on both.
+
+<div class="ds-videos">
+  <figure>
+    <video src="{{ site.baseurl }}/images/dopesync-gb-chart.mp4" poster="{{ site.baseurl }}/images/dopesync-gb-chart-poster.jpg" controls muted playsinline preload="none"></video>
+    <figcaption><strong>GeoBallistics</strong> Chart: a full 100 to 1,000 yd trajectory table</figcaption>
+  </figure>
+  <figure>
+    <video src="{{ site.baseurl }}/images/dopesync-gb-comp.mp4" poster="{{ site.baseurl }}/images/dopesync-gb-comp-poster.jpg" controls muted playsinline preload="none"></video>
+    <figcaption><strong>GeoBallistics</strong> Comp: a 4-target stage card</figcaption>
+  </figure>
+  <figure>
+    <video src="{{ site.baseurl }}/images/dopesync-ab.mp4" poster="{{ site.baseurl }}/images/dopesync-ab-poster.jpg" controls muted playsinline preload="none"></video>
+    <figcaption><strong>Applied Ballistics</strong>: lettered targets, two winds, rows past range show --</figcaption>
+  </figure>
+</div>
+
+<p class="ds-note">The phone side is a real recording. The watch side is the Connect IQ simulator showing the same card the phone sent, timed to when it arrived.</p>
 
 ## How it works
 

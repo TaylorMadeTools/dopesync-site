@@ -4,6 +4,14 @@ title: What's New
 permalink: /whats-new/
 ---
 
+## 0.3.2 (October 2026)
+- Cards still send if you leave the share screen right away (Android)
+- Shorter, cleaner "open" prompt on the watch
+
+## 0.3.1 (October 2026)
+- The watch confirms a new card right away, even if you don't open the app
+- No more false "Watch didn't confirm" message
+
 ## 0.3.0 (October 2026)
 - Supports 62 Garmin watch models: fenix 5 Plus through fenix 9 and E, epix, Enduro, MARQ, Forerunner 245 to 970
 - Card layout adapts to each screen size

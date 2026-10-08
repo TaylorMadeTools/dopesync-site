@@ -36,3 +36,7 @@ figcaption strong { color: #F2F2F2; }
 .ds-note { border-left: 3px solid #E5262A; padding: 8px 14px; background: #111; }
 
 .ds-fig video { width: 260px; max-width: 100%; border-radius: 50%; background: #000; }
+
+.ds-videos { display: grid; grid-template-columns: 1fr; gap: 20px; }
+.ds-videos figure { margin: 0; }
+.ds-videos video { width: 100%; border-radius: 10px; background: #000; border: 1px solid #262626; }
