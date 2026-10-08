@@ -12,6 +12,14 @@ layout: home
 
 **Your range card, on your wrist.** Build your card in GeoBallistics or Applied Ballistics like you already do, share it, and it's on your Garmin watch. No retyping, no tape on the stock, no phone out on the line.
 
+## See it in action
+
+<figure class="ds-fig">
+  <video src="{{ site.baseurl }}/images/dopesync-demo.mp4" poster="{{ site.baseurl }}/images/watch-gb-card.png"
+         autoplay muted loop playsinline width="260"></video>
+  <figcaption>A card arrives: the watch buzzes, you press <strong>Start</strong>, your dope is up. (Simulator recording.)</figcaption>
+</figure>
+
 <div class="ds-shots">
   <figure>
     <img src="{{ site.baseurl }}/images/watch-gb-card.png" alt="GeoBallistics stage card on a fenix 6 Pro">
