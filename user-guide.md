@@ -34,7 +34,7 @@ The phone confirms with "N targets sent to your watch" once the watch has receiv
 
 ## 4. Reading the card
 
-<img src="{{ site.baseurl }}/images/watch-gb-card.png" alt="Card" width="260">
+<figure class="ds-fig"><img src="{{ site.baseurl }}/images/watch-gb-card.png" alt="GeoBallistics card" width="260"><figcaption><strong>GeoBallistics</strong> stage card</figcaption></figure>
 
 | Part | Meaning |
 |---|---|

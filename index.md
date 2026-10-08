@@ -13,8 +13,14 @@ layout: home
 **Your range card, on your wrist.** Build your card in GeoBallistics or Applied Ballistics like you already do, share it, and it's on your Garmin watch. No retyping, no tape on the stock, no phone out on the line.
 
 <div class="ds-shots">
-  <img src="{{ site.baseurl }}/images/watch-gb-card.png" alt="GeoBallistics stage card on a fenix 6 Pro">
-  <img src="{{ site.baseurl }}/images/watch-ab-card.png" alt="Applied Ballistics card with two winds">
+  <figure>
+    <img src="{{ site.baseurl }}/images/watch-gb-card.png" alt="GeoBallistics stage card on a fenix 6 Pro">
+    <figcaption><strong>GeoBallistics</strong> stage card</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/images/watch-ab-card.png" alt="Applied Ballistics card with two winds">
+    <figcaption><strong>Applied Ballistics</strong> card, two winds</figcaption>
+  </figure>
 </div>
 
 ## How it works

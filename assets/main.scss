@@ -29,5 +29,8 @@ img { border-radius: 8px; }
 .ds-word .sync { color: #E5262A; }
 .ds-tag { color: #8A8A8A; font-family: monospace; letter-spacing: 0.25em; font-size: 12px; margin-top: 6px; }
 .ds-shots { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; }
-.ds-shots img { max-width: 260px; }
+.ds-shots figure, .ds-fig { margin: 0; text-align: center; }
+.ds-shots img, .ds-fig img { width: 260px; max-width: 100%; border-radius: 50%; }
+figcaption { color: #8A8A8A; font-size: 14px; margin-top: 6px; }
+figcaption strong { color: #F2F2F2; }
 .ds-note { border-left: 3px solid #E5262A; padding: 8px 14px; background: #111; }
