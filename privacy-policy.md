@@ -35,7 +35,7 @@ If DOPE Sync offers a paid upgrade, payment is handled entirely by Google Play o
 
 ## Feedback
 
-If you choose to use the [feedback form](https://forms.gle/3sWLNwVvi64kEqgDA) (a Google Form), what you type, and your email only if you enter it, goes to the developer through Google Forms. It is used only to fix problems and reply to you, and never shared or sold.
+If you choose to use the [feedback form](https://forms.gle/3sWLNwVvi64kEqgDA) (a Google Form), what you type, and your email only if you enter it, goes to the developer through Google Forms. It is used only to fix problems and reply to you, and never shared or sold. The same goes for anything you email.
 
 ## Contact
 
