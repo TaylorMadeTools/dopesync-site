@@ -49,7 +49,6 @@ When the watch confirms, the phone shows **"4 targets sent to fenix 6 Pro"** (yo
 | Footer | Wind speed and clock position relative to your shot, e.g. `22 MPH @ 6:00` |
 | Dots on the right | Pages: Up/Down to flip |
 | `--` | Your ballistic app didn't give a hold for that row. With Applied Ballistics' free version this happens past its range limit; a paid AB plan fills them in. |
-| `STALE 14h` | The stage card is older than your stale setting |
 
 ## 5. Stage card and pins
 
@@ -67,14 +66,13 @@ In Garmin Connect on your phone (your watch > Activities & Apps > DOPE Sync > Se
 | Setting | Default |
 |---|---|
 | Tactical mode: red on black display (also hold Start on the watch) | Off |
-| Stale after (hours) | 12 |
-| Prompt to open on new card | On |
+| Ask to open DopeSync when a card arrives | On |
 | On this watch (read-only list of your stage card and pins) | - |
 | Paste a card (no phone app needed) | Empty |
 | Last pasted card (read-only result of the last paste) | - |
 | Feedback and bug reports (link to the form) | - |
 
-**Paste a card:** open the CSV your ballistic app exported (a text editor, Files, or Google Drive preview all work), copy all of its text, and paste it into this box. The next time the watch syncs settings (or you open DOPE Sync), it becomes the stage card and the box empties. One card at a time, up to 4000 characters. If it can't be read, **Last pasted card** says why. Settings may not appear while DOPE Sync is in beta.
+**Paste a card:** open the CSV your ballistic app exported (a text editor, Files, or Google Drive preview all work), copy all of its text, and paste it into this box, save, then open DOPE Sync on the watch. It becomes the stage card and the box empties. One card at a time, up to 4000 characters. If it can't be read, **Last pasted card** says why. Settings may not appear while DOPE Sync is in beta.
 
 ## Feedback and new apps
 
