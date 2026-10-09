@@ -64,12 +64,24 @@ layout: landing
       <li><strong>Wind as a clock position</strong> relative to your shot: 22 MPH @ 6:00.</li>
       <li><strong>Two-wind ranges</strong> for Applied Ballistics: R 0.2-0.3.</li>
       <li><strong>Stage card + 5 pins.</strong> Each share replaces the stage card; your 100-yard profile and 22LR stay pinned.</li>
-      <li><strong>Tactical mode:</strong> black and red only.</li>
+      <li><strong>Tactical mode:</strong> black and red only. Hold Start to switch.</li>
     </ul>
   </div>
-  <div class="ld-shots">
-    <figure><img src="{{ site.baseurl }}/images/watch-gb-card.png" alt="GeoBallistics stage card"><figcaption><strong>GeoBallistics</strong> stage card</figcaption></figure>
-    <figure><img src="{{ site.baseurl }}/images/watch-ab-card.png" alt="Applied Ballistics two-wind card"><figcaption><strong>Applied Ballistics</strong>, two winds</figcaption></figure>
+  <div>
+    <div class="ld-mode" role="group" aria-label="Watch display mode">
+      <button type="button" class="ld-mode-btn is-on" data-mode="std" aria-pressed="true">Standard</button>
+      <button type="button" class="ld-mode-btn" data-mode="tac" aria-pressed="false">Tactical</button>
+    </div>
+    <div class="ld-shots">
+      <figure><img class="ld-swap" src="{{ site.baseurl }}/images/watch-gb-card.png"
+                   data-std="{{ site.baseurl }}/images/watch-gb-card.png"
+                   data-tac="{{ site.baseurl }}/images/watch-gb-card-tactical.png" alt="GeoBallistics stage card"><figcaption><strong>GeoBallistics</strong> stage card</figcaption></figure>
+      <figure><img class="ld-swap" src="{{ site.baseurl }}/images/watch-ab-card.png"
+                   data-std="{{ site.baseurl }}/images/watch-ab-card.png"
+                   data-tac="{{ site.baseurl }}/images/watch-ab-card-tactical.png" alt="Applied Ballistics two-wind card"><figcaption><strong>Applied Ballistics</strong>, two winds</figcaption></figure>
+    </div>
+    <p class="ld-small ld-mode-note">Tactical mode: hold Start on the watch.</p>
+  </div>
   </div>
 </section>
 
@@ -86,3 +98,22 @@ layout: landing
   <p>Questions or feedback: <a href="mailto:taylor@taylormadetech.io">taylor@taylormadetech.io</a></p>
   <p class="ld-small">DOPE Sync is not affiliated with or endorsed by GeoBallistics, Applied Ballistics or Garmin.</p>
 </section>
+
+<script>
+  // Standard / Tactical switch for the watch screenshots.
+  (function () {
+    var buttons = document.querySelectorAll('.ld-mode-btn');
+    var imgs = document.querySelectorAll('.ld-swap');
+    imgs.forEach(function (img) { new Image().src = img.dataset.tac; });
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () {
+        buttons.forEach(function (x) {
+          var on = x === b;
+          x.classList.toggle('is-on', on);
+          x.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        imgs.forEach(function (img) { img.src = img.dataset[b.dataset.mode]; });
+      });
+    });
+  })();
+</script>
