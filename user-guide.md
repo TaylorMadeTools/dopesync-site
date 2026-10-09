@@ -14,7 +14,7 @@ permalink: /user-guide/
 
 Open DOPE Sync on the phone once. The status screen shows Garmin Connect, your watch, and whether the watch app is installed.
 
-<img src="{{ site.baseurl }}/images/iphone-status.png" alt="DOPE Sync status screen" width="260">
+<img class="ds-phone" src="{{ site.baseurl }}/images/iphone-status.png" alt="DOPE Sync status screen" width="260">
 
 **iPhone only:** tap **Choose watch in Garmin Connect** once. Garmin Connect opens, you pick your watch, and it comes back to DOPE Sync.
 
