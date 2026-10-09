@@ -48,10 +48,11 @@ layout: landing
     </figure>
     <figure>
       <video src="{{ site.baseurl }}/images/dopesync-ab.mp4" poster="{{ site.baseurl }}/images/dopesync-ab-poster.jpg" controls muted playsinline preload="none"></video>
-      <figcaption><strong>Applied Ballistics</strong><br>Lettered targets, two winds</figcaption>
+      <figcaption><strong>Applied Ballistics</strong><br>Lettered targets, two winds*</figcaption>
     </figure>
   </div>
-  <p class="ld-small">Phone: real recording. Watch: the Connect IQ simulator showing the same card, timed to when it arrived.</p>
+  <p class="ld-small">Phone: real recording. Watch: the Connect IQ simulator showing the same card, timed to when it arrived.<br>
+  * Rows D and E show <code>--</code> because this recording used Applied Ballistics' free version, which doesn't solve past its range limit. A paid AB plan fills them in.</p>
 </section>
 
 <section class="ld-section ld-split" id="features">
@@ -63,7 +64,6 @@ layout: landing
       <li><strong>Wind as a clock position</strong> relative to your shot: 22 MPH @ 6:00.</li>
       <li><strong>Two-wind ranges</strong> for Applied Ballistics: R 0.2-0.3.</li>
       <li><strong>Stage card + 5 pins.</strong> Each share replaces the stage card; your 100-yard profile and 22LR stay pinned.</li>
-      <li><strong>Honest about range.</strong> Rows past your solver's limit show --, never a false 0.0.</li>
       <li><strong>Tactical mode:</strong> black and red only.</li>
     </ul>
   </div>
