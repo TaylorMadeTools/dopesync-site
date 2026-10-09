@@ -54,6 +54,7 @@ The phone confirms with "N targets sent to your watch" once the watch has receiv
 - Hold **Up** > **Cards** to switch between the stage card and your pins.
 - **Clear stage card** and **Delete this card** ask to confirm first.
 - Hold **Up** > **About** shows the version.
+- **Tactical mode** (black and red only): **hold Start** for about a second on the card, or hold **Up** > **Tactical mode**.
 
 ## 6. Watch settings
 
@@ -61,7 +62,7 @@ In the Connect IQ app on your phone (DOPE Sync > Settings):
 
 | Setting | Default |
 |---|---|
-| Tactical mode (black and red only) | Off |
+| Tactical mode (black and red only; also hold Start on the watch) | Off |
 | Stale after (hours) | 12 |
 | Prompt to open on new card | On |
 
