@@ -69,6 +69,11 @@ In Garmin Connect on your phone (your watch > Activities & Apps > DOPE Sync > Se
 | Tactical mode (black and red only; also hold Start on the watch) | Off |
 | Stale after (hours) | 12 |
 | Prompt to open on new card | On |
+| On this watch (read-only list of your stage card and pins) | - |
+| Paste a card (no phone app needed) | Empty |
+| Last pasted card (read-only result of the last paste) | - |
+
+**Paste a card:** open the CSV your ballistic app exported, copy all of its text, and paste it into this box. The next time the watch syncs settings (or you open DOPE Sync), it becomes the stage card and the box empties. One card at a time, up to 4000 characters. If it can't be read, **Last pasted card** says why. Settings may not appear while DOPE Sync is in beta.
 
 ## Troubleshooting
 

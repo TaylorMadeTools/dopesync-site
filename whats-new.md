@@ -4,6 +4,10 @@ title: What's New
 permalink: /whats-new/
 ---
 
+## 0.3.4 (October 2026)
+- Paste a card in the watch settings, no phone app needed (GeoBallistics or Applied Ballistics CSV text)
+- "On this watch" in settings lists your stage card and pins
+
 ## 0.3.3 (October 2026)
 - Tactical mode is black and red only across the whole card
 - Hold Start on the card to switch tactical mode on or off (also in the menu)
