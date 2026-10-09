@@ -66,7 +66,7 @@ In Garmin Connect on your phone (your watch > Activities & Apps > DOPE Sync > Se
 
 | Setting | Default |
 |---|---|
-| Tactical mode (black and red only; also hold Start on the watch) | Off |
+| Tactical mode: red on black display (also hold Start on the watch) | Off |
 | Stale after (hours) | 12 |
 | Prompt to open on new card | On |
 | On this watch (read-only list of your stage card and pins) | - |

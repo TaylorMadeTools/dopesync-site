@@ -4,6 +4,10 @@ title: What's New
 permalink: /whats-new/
 ---
 
+## 0.3.5 (October 2026)
+- Clearer tactical mode labels in settings and the watch menu
+- "No card yet" message fits on every watch screen
+
 ## 0.3.4 (October 2026)
 - Paste a card in the watch settings, no phone app needed (GeoBallistics or Applied Ballistics CSV text)
 - "On this watch" in settings lists your stage card and pins
