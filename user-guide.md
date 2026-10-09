@@ -72,8 +72,13 @@ In Garmin Connect on your phone (your watch > Activities & Apps > DOPE Sync > Se
 | On this watch (read-only list of your stage card and pins) | - |
 | Paste a card (no phone app needed) | Empty |
 | Last pasted card (read-only result of the last paste) | - |
+| Feedback, bugs, or request another ballistic app (link to the form) | - |
 
 **Paste a card:** open the CSV your ballistic app exported (a text editor, Files, or Google Drive preview all work), copy all of its text, and paste it into this box. The next time the watch syncs settings (or you open DOPE Sync), it becomes the stage card and the box empties. One card at a time, up to 4000 characters. If it can't be read, **Last pasted card** says why. Settings may not appear while DOPE Sync is in beta.
+
+## Feedback
+
+Found a bug, have an idea, or want another ballistic app supported? Use the **[feedback form](https://forms.gle/3sWLNwVvi64kEqgDA)** (no sign-in). For a card that won't load or a new app, paste the CSV text in the form; for a file you can't paste, email [taylor@taylormadetech.io](mailto:taylor@taylormadetech.io).
 
 ## Troubleshooting
 

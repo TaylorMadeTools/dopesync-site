@@ -4,6 +4,9 @@ title: What's New
 permalink: /whats-new/
 ---
 
+## 0.3.7 (October 2026)
+- Feedback link in the watch settings (bugs, ideas, or request another ballistic app)
+
 ## 0.3.6 (October 2026)
 - Paste a card works with text copied from Google Drive or a file preview, not just the raw CSV
 
