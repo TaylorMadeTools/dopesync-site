@@ -82,7 +82,6 @@ layout: landing
     </div>
     <p class="ld-small ld-mode-note">Tactical mode: hold Start on the watch.</p>
   </div>
-  </div>
 </section>
 
 <section class="ld-section" id="works">
