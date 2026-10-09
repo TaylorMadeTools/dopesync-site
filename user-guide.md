@@ -7,8 +7,10 @@ permalink: /user-guide/
 ## 1. Install
 
 1. **Watch:** install **DOPE Sync** from the Connect IQ Store (Connect IQ app on your phone), then sync your watch.
-2. **Phone:** install the **DOPE Sync** app (Android: Google Play; iPhone: in testing).
+2. **Phone:** install the **DOPE Sync** app. Android is in beta (testers get a Google Play test link); iPhone is in testing.
 3. Make sure your watch is paired with **Garmin Connect** on the phone.
+
+<p class="ds-note">DOPE Sync is in beta. The store listings are coming soon; <a href="mailto:taylor@taylormadetech.io?subject=DopeSync%20beta">ask to join the beta</a>.</p>
 
 Open DOPE Sync on the phone once. The status screen shows Garmin Connect, your watch, and whether the watch app is installed.
 
@@ -20,11 +22,13 @@ Open DOPE Sync on the phone once. The status screen shows Garmin Connect, your w
 
 | From | Steps |
 |---|---|
-| GeoBallistics (stage card) | Comp tab > Export > CSV > Share > **Send to Garmin** (Android) / **DopeSync** (iPhone) |
-| GeoBallistics (full chart) | Chart > Export > CSV > Share > Send to Garmin / DopeSync |
-| Applied Ballistics | Export > Share > Send to Garmin / DopeSync |
+| GeoBallistics (stage card) | **Comp** tab > Export > **CSV** > **DopeSync** in the share menu |
+| GeoBallistics (full chart) | **Chart** tab > Export > **CSV** > **DopeSync** |
+| Applied Ballistics | Export > **CSV** > **DopeSync** |
 
-The phone confirms with "N targets sent to your watch" once the watch has received it. If something's wrong with the file, the phone says so and **nothing is sent** to the watch.
+On Android the share menu shows **DopeSync** with "Send to Garmin" under it. You can leave right away: a short "Sending card to watch" notification shows while it sends.
+
+When the watch confirms, the phone shows **"4 targets sent to fenix 6 Pro"** (your watch's name). If something's wrong with the file, the phone says so and **nothing is sent** to the watch.
 
 ## 3. Open it on the watch
 
@@ -39,12 +43,12 @@ The phone confirms with "N targets sent to your watch" once the watch has receiv
 | Part | Meaning |
 |---|---|
 | Title | Rifle / profile name from your ballistic app |
-| YD / M | Target number (stage order, never sorted) and range |
-| ELEV | **U** up / **D** down, in your hold units (MRAD or MOA) |
+| YD / M | Target number or letter (stage order, never sorted) and range. Chart exports have no target column, so only the range shows. |
+| ELEV | **U** up / **D** down, in your hold units (MRAD or MOA), to one decimal. Applied Ballistics' two-decimal holds are rounded (1.23 shows as 1.2). |
 | WIND | **R** right / **L** left. Two-wind AB cards show a range, e.g. `R 0.2-0.3` under `W10-15` |
 | Footer | Wind speed and clock position relative to your shot, e.g. `22 MPH @ 6:00` |
 | Dots on the right | Pages: Up/Down to flip |
-| `--` | Your solver had no solution for that row (for example past its range limit) |
+| `--` | Your ballistic app didn't give a hold for that row. With Applied Ballistics' free version this happens past its range limit; a paid AB plan fills them in. |
 | `STALE 14h` | The stage card is older than your stale setting |
 
 ## 5. Stage card and pins
@@ -58,7 +62,7 @@ The phone confirms with "N targets sent to your watch" once the watch has receiv
 
 ## 6. Watch settings
 
-In the Connect IQ app on your phone (DOPE Sync > Settings):
+In Garmin Connect on your phone (your watch > Activities & Apps > DOPE Sync > Settings), or the Connect IQ app:
 
 | Setting | Default |
 |---|---|
@@ -71,6 +75,7 @@ In the Connect IQ app on your phone (DOPE Sync > Settings):
 | Problem | Fix |
 |---|---|
 | "No Garmin watch connected" | Open Garmin Connect, make sure the watch is connected, try again. iPhone: tap Choose watch. |
-| "Watch didn't confirm" | Open DOPE Sync on the watch and share again. |
+| "Delivered to ... Open DopeSync on your watch" | The card reached the watch; open DOPE Sync to see it. |
+| "Watch didn't confirm" | Open DOPE Sync on the watch, make sure Bluetooth is on, and share again. |
 | "Not a GeoBallistics or Applied Ballistics range card" | Export as CSV from one of those apps. Other files are ignored on purpose. |
-| Card shows `--` on some rows | The ballistic app had no solution there (free versions limit range). |
+| Card shows `--` on some rows | Your ballistic app gave no hold for those rows (for example past Applied Ballistics' free-version range limit). |

@@ -24,7 +24,7 @@ permalink: /whats-new/
 
 ## 0.2.0 (October 2026)
 - Applied Ballistics CSV support (numbered or lettered targets, two-wind ranges)
-- Rows beyond the source app's range show `--` instead of a misleading `0.0`
+- Rows your ballistic app didn't solve show `--` instead of a misleading `0.0`
 - Wind clock position for both apps
 - New app icon, About screen
 

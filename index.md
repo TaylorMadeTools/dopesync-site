@@ -29,7 +29,7 @@ layout: landing
   <h2>How it works</h2>
   <div class="ld-steps">
     <div class="ld-card"><span class="ld-num">1</span><h3>Build your card</h3><p>In GeoBallistics (Comp or Chart) or Applied Ballistics, the same way you do today.</p></div>
-    <div class="ld-card"><span class="ld-num">2</span><h3>Share to DopeSync</h3><p>Export, Share, then DopeSync. You can go right back to what you were doing.</p></div>
+    <div class="ld-card"><span class="ld-num">2</span><h3>Share to DopeSync</h3><p>Export as CSV and pick DopeSync in the share menu. You can go right back to what you were doing.</p></div>
     <div class="ld-card"><span class="ld-num">3</span><h3>Read it on your wrist</h3><p>Every target's range, elevation and wind, big and readable in sun.</p></div>
   </div>
 </section>
