@@ -4,6 +4,9 @@ title: What's New
 permalink: /whats-new/
 ---
 
+## 0.3.6 (October 2026)
+- Paste a card works with text copied from Google Drive or a file preview, not just the raw CSV
+
 ## 0.3.5 (October 2026)
 - Clearer tactical mode labels in settings and the watch menu
 - "No card yet" message fits on every watch screen
