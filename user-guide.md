@@ -72,7 +72,7 @@ In Garmin Connect on your phone (your watch > Activities & Apps > DOPE Sync > Se
 | Last pasted card (read-only result of the last paste) | - |
 | Feedback and bug reports (link to the form) | - |
 
-**Paste a card:** open the CSV your ballistic app exported (a text editor, Files, or Google Drive preview all work), copy all of its text, and paste it into this box, save, then open DOPE Sync on the watch. It becomes the stage card and the box empties. One card at a time, up to 4000 characters. If it can't be read, **Last pasted card** says why. Settings may not appear while DOPE Sync is in beta.
+**Paste a card:** open the CSV your ballistic app exported (a text editor, Files, or Google Drive preview all work), copy all of its text, and paste it into this box, save, then open DOPE Sync on the watch. It becomes the stage card and the box empties. One card at a time, up to 4000 characters. If it can't be read, **Last pasted card** says why.
 
 ## Feedback and new apps
 
