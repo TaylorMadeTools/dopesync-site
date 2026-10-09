@@ -5,5 +5,9 @@
   {%- seo -%}
   <!-- Build-time version on the stylesheet so a deploy never leaves browsers on a stale cached copy. -->
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}?v={{ site.time | date: '%s' }}">
+  <link rel="icon" href="{{ "/favicon.svg" | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ "/favicon-32.png" | relative_url }}" sizes="32x32" type="image/png">
+  <link rel="alternate icon" href="{{ "/favicon.ico" | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
   {%- feed_meta -%}
 </head>
