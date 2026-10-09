@@ -4,6 +4,9 @@ title: What's New
 permalink: /whats-new/
 ---
 
+## 0.3.3 (October 2026)
+- Tactical mode is black and red only across the whole card
+
 ## 0.3.2 (October 2026)
 - Cards still send if you leave the share screen right away (Android)
 - Shorter, cleaner "open" prompt on the watch
