@@ -22,6 +22,7 @@ minima:
 header_pages:
   - user-guide.md
   - whats-new.md
+  - feedback.md
   - privacy-policy.md
   - license-info.md
 
