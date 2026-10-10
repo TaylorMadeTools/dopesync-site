@@ -4,11 +4,14 @@ title: What's New
 permalink: /whats-new/
 ---
 
+## 0.3.8 (October 2026)
+- Paste handles large cards reliably (up to 4000 characters)
+- Rifle names from copied tables come through clean
+
 ## 0.3.7 (October 2026)
 - Feedback link in the watch settings for bugs and ideas
 - Removed the "stale" warning; the card always shows the wind from your upload
 - Clearer wording for the paste box and the "open when a card arrives" setting
-- Paste handles large cards reliably (up to 4000 characters)
 
 ## 0.3.6 (October 2026)
 - Paste a card works with text copied from Google Drive or a file preview, not just the raw CSV
