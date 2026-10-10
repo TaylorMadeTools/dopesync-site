@@ -8,6 +8,7 @@ permalink: /whats-new/
 - Feedback link in the watch settings for bugs and ideas
 - Removed the "stale" warning; the card always shows the wind from your upload
 - Clearer wording for the paste box and the "open when a card arrives" setting
+- Paste handles large cards reliably (up to 4000 characters)
 
 ## 0.3.6 (October 2026)
 - Paste a card works with text copied from Google Drive or a file preview, not just the raw CSV
