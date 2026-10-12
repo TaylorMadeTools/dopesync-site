@@ -1,0 +1,20 @@
+﻿
+Rifle,RPR - 140gr - BTHP Berger
+Position,"40.3°, -97.0°"
+Shot Bearing,20.0°
+Shot Angle,0.0°
+
+Wind,22.0 mph @ 208.4°
+Pressure,29.92 in Hg
+Temperature,59.0 °F
+Relative Humidity,1.0%
+Density Altitude,20.3 ft
+
+Target,Range (yd),Elev. (MRAD),Wind (MRAD)
+1,417.0,U 2.0,L 0.3
+2,839.0,U 6.4,L 0.6
+3,1164.0,U 11.1,L 1.0
+4,1252.0,U 12.6,L 1.1
+5,298.0,U 1.1,L 0.2
+6,999.0,U 8.6,L 0.8
+7,1032.0,U 9.0,L 0.8
