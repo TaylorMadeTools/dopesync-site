@@ -25,7 +25,7 @@ Open DOPE Sync on the phone once. The status screen shows Garmin Connect, your w
 | GeoBallistics (stage card) | **Comp** tab > Export > **CSV** > **DopeSync** in the share menu |
 | GeoBallistics (full chart) | **Chart** tab > Export > **CSV** > **DopeSync** |
 | Applied Ballistics (target card) | Export > **CSV** > **DopeSync** |
-| Applied Ballistics (range card) | Rangecard > Export > **CSV** > **DopeSync** (one row per range) |
+| Applied Ballistics (range card) | Export the range card as **CSV** > **DopeSync** (one row per range) |
 
 On Android the share menu shows **DopeSync** with "Send to Garmin" under it. You can leave right away: a short "Sending card to watch" notification shows while it sends.
 
