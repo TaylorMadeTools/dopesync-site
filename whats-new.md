@@ -4,6 +4,11 @@ title: What's New
 permalink: /whats-new/
 ---
 
+## Phone apps (October 2026)
+- Applied Ballistics **range card** exports (one row per range) now work, in addition to target cards
+- First card after installing: the phone tells you to open DOPE Sync on the watch once
+- Android and iPhone: Send feedback and Privacy policy on the status screen
+
 ## 0.3.8 (October 2026)
 - Paste handles large cards reliably (up to 4000 characters)
 - Rifle names from copied tables come through clean

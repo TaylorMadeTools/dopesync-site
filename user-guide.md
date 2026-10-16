@@ -6,7 +6,7 @@ permalink: /user-guide/
 
 ## 1. Install
 
-1. **Watch:** install **DOPE Sync** from the Connect IQ Store (Connect IQ app on your phone), then sync your watch.
+1. **Watch:** install **DOPE Sync** from the Connect IQ Store (Connect IQ app on your phone), then sync your watch. **Open DOPE Sync on the watch once** after installing: until you do, the watch can't wake up for a new card, so your first card waits until you open the app.
 2. **Phone:** install the **DOPE Sync** app. Android is in beta (testers get a Google Play test link); iPhone is in testing.
 3. Make sure your watch is paired with **Garmin Connect** on the phone.
 
@@ -24,9 +24,12 @@ Open DOPE Sync on the phone once. The status screen shows Garmin Connect, your w
 |---|---|
 | GeoBallistics (stage card) | **Comp** tab > Export > **CSV** > **DopeSync** in the share menu |
 | GeoBallistics (full chart) | **Chart** tab > Export > **CSV** > **DopeSync** |
-| Applied Ballistics | Export > **CSV** > **DopeSync** |
+| Applied Ballistics (target card) | Export > **CSV** > **DopeSync** |
+| Applied Ballistics (range card) | Rangecard > Export > **CSV** > **DopeSync** (one row per range) |
 
 On Android the share menu shows **DopeSync** with "Send to Garmin" under it. You can leave right away: a short "Sending card to watch" notification shows while it sends.
+
+On iPhone, DOPE Sync opens for a few seconds while it sends; stay on it until the status says **Sent**.
 
 When the watch confirms, the phone shows **"4 targets sent to fenix 6 Pro"** (your watch's name). If something's wrong with the file, the phone says so and **nothing is sent** to the watch.
 
