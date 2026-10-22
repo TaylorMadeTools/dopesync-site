@@ -4,6 +4,9 @@ title: What's New
 permalink: /whats-new/
 ---
 
+## Watch 1.0.1 (October 2026)
+- Paste a card reads Applied Ballistics range card exports (one row per range)
+
 ## Phone apps (October 2026)
 - Applied Ballistics **range card** exports (one row per range) now work, in addition to target cards
 - First card after installing: the phone tells you to open DOPE Sync on the watch once
