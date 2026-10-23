@@ -6,11 +6,11 @@ permalink: /user-guide/
 
 ## 1. Install
 
-1. **Watch:** install **DOPE Sync** from the Connect IQ Store (Connect IQ app on your phone), then sync your watch. **Open DOPE Sync on the watch once** after installing: until you do, the watch can't wake up for a new card, so your first card waits until you open the app.
+1. **Watch:** install **DOPE Sync** from the [Connect IQ Store](https://apps.garmin.com/apps/f7252e60-09aa-40d2-87da-7fc731324aa9) (Connect IQ app on your phone), then sync your watch. **Open DOPE Sync on the watch once** after installing: until you do, the watch can't wake up for a new card, so your first card waits until you open the app.
 2. **Phone:** install the **DOPE Sync** app. Android is in beta (testers get a Google Play test link); iPhone is in testing.
 3. Make sure your watch is paired with **Garmin Connect** on the phone.
 
-<p class="ds-note">DOPE Sync is in beta. The store listings are coming soon; <a href="mailto:taylor@taylormadetech.io?subject=DopeSync%20beta">ask to join the beta</a>.</p>
+<p class="ds-note">The watch app is on the <a href="https://apps.garmin.com/apps/f7252e60-09aa-40d2-87da-7fc731324aa9">Connect IQ Store</a>. The phone apps are in beta; <a href="mailto:taylor@taylormadetech.io?subject=DopeSync%20beta">ask to join</a>.</p>
 
 Open DOPE Sync on the phone once. The status screen shows Garmin Connect, your watch, and whether the watch app is installed.
 
