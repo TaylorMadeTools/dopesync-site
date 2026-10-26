@@ -15,7 +15,7 @@ layout: landing
     <p class="ld-lead">Build your card in GeoBallistics or Applied Ballistics like you already do, share it, and it's on your Garmin watch. No retyping, no tape on the stock, no phone out on the line.</p>
     <div class="ld-ctas">
       <a class="ld-btn ld-btn-primary" href="https://apps.garmin.com/apps/f7252e60-09aa-40d2-87da-7fc731324aa9">Get the watch app</a>
-      <a class="ld-btn" href="mailto:taylor@taylormadetech.io?subject=DopeSync%20beta">Join the phone beta</a>
+      <a class="ld-btn" href="{{ site.baseurl }}/beta/">Join the Android beta</a>
       <a class="ld-btn" href="{{ site.baseurl }}/user-guide/">User guide</a>
     </div>
     <p class="ld-small">Watch app live on the Connect IQ Store (paste a card in its settings, no phone app needed). Android beta now. iPhone in testing. Never calculates ballistics: it shows exactly what your solver produced.</p>
