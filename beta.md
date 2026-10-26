@@ -23,6 +23,6 @@ The Android app is in a closed beta on Google Play. I need about 20 testers for 
 The iPhone app is built and working, and it's next once Android is out. Two things you can do today:
 
 - **Use DOPE Sync now:** install the watch app and paste your card into its settings in Garmin Connect. No phone app needed. Steps are in the [user guide]({{ site.baseurl }}/user-guide/).
-- **Join the iPhone waitlist:** [email me](mailto:taylor@taylormadetech.io?subject=DopeSync%20iPhone%20waitlist) with your watch model and ballistic app, and say whether you'd like to test it early.
+- **Join the iPhone waitlist:** [sign up here](https://forms.gle/2kExpoTEvotdtx3q9) (one minute, no sign-in). I'll email you when it's ready, or earlier if you want to test it.
 
 Not affiliated with or endorsed by GeoBallistics, Applied Ballistics or Garmin.
